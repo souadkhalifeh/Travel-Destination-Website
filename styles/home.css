@@ -1,0 +1,122 @@
+.homeheader{
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../pictures/travel.jpg);
+    height: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+nav p{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
+.navbar-list{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.navbar-item{
+    float:left;
+}
+ul li a{
+    text-decoration: none;
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+ul li a:hover{
+    background-color: darkgreen;
+    color: black;
+}
+.button{
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    text-align: center;
+    margin-left: 41%;
+    cursor: pointer;
+    font-size: 16px;
+    background-color:rgb(127, 184, 127);
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+  
+.button:hover {
+    background-color: #45a049;
+}
+.container h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+.destinations h1{
+    text-align: center;
+}
+.content{
+    width:1170px ;
+    margin: auto;
+    display: flex;
+}    
+.content h1{
+    text-align: center;
+}
+.content img{
+    height: 150px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.place{
+    flex:300px;
+    margin: 10px;
+    border: 2px solid white ;
+    border-radius: 10px;
+    height: 300px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.4s;
+    background:rgb(127, 184, 127);
+}
+.place:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 10px 10px rgba(0,0,0,0.23); 
+    transform: translate(0px, -8px);
+    background: darkgreen;
+}
+.more{
+    padding:20px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: rgb(127, 184, 127);
+}
+.more a{
+    text-decoration: none;
+    color: black;
+}
+.more:hover{
+    background-color: darkgreen;
+}
+.more a:hover{
+    color: white;
+}
+.footer{
+    background: rgb(127, 184, 127);
+    color: black;
+    text-align: center;
+    padding:10px;
+    margin-top:20px;
+
+
+}
